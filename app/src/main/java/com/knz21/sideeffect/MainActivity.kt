@@ -58,6 +58,7 @@ private fun SideEffectsScreen() {
             SideEffect.LaunchedEffect -> LaunchedEffectScreen()
             SideEffect.RememberUpdatedState -> RememberUpdatedStateScreen()
             SideEffect.SideEffect -> SideEffectScreen()
+            SideEffect.ProduceState -> ProduceStateScreen()
             SideEffect.DerivedStateOf -> DerivedStateOfScreen()
             SideEffect.SnapshotFlow -> SnapshotFlowScreen()
         }
